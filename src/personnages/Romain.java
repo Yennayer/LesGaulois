@@ -36,4 +36,9 @@ public class Romain {
 		}
 	}
 
+	public static void main(String[] args) {
+		Romain minus = new Romain("Minus",6);
+		minus.parler("Bonjour à tous");
+		minus.recevoirCoup(6);
+	}
 }
